@@ -887,25 +887,31 @@ body.light-mode .contact-box p{
 @media(max-width:768px){
 
 nav{
-    flex-direction:row;
-    padding:20px;
+    padding:15px 20px;
+}
+
+.logo{
+    font-size:24px;
 }
 
 .menu-toggle{
     display:block;
-    color:#29d8ff;
-    font-size:28px;
-    cursor:pointer;
 }
 
 nav ul{
     position:absolute;
-    top:75px;
+    top:70px;
     left:0;
     width:100%;
     flex-direction:column;
     background:#161b22;
     display:none;
+    padding:20px 0;
+}
+
+nav ul li{
+    margin:12px 0;
+    text-align:center;
 }
 
 nav ul.active{
@@ -915,7 +921,7 @@ nav ul.active{
 .hero{
     flex-direction:column-reverse;
     text-align:center;
-    padding:80px 20px;
+    padding:60px 20px;
 }
 
 .hero-text,
@@ -923,34 +929,105 @@ nav ul.active{
     width:100%;
 }
 
-.hero-text h1{
-    font-size:45px;
+.hero-text h3{
+    font-size:24px;
 }
 
-.hero-text p{
+.hero-text h1{
+    font-size:42px;
+}
+
+#typing{
     font-size:18px;
 }
 
-.profile{
-    width:300px;
+.hero-text p{
+    font-size:17px;
 }
 
-.project-container{
-    flex-direction:column;
+.profile{
+    width:260px;
+}
+
+.buttons .btn{
+    display:block;
+    margin:15px auto;
+    width:220px;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    font-size:18px;
+}
+
+.about,
+.skills,
+.tech,
+.services,
+.education,
+.internships,
+.projects,
+.contact{
+    padding:50px 20px;
+}
+
+.about h2,
+.skills h2,
+.tech h2,
+.services h2,
+.education h2,
+.internships h2,
+.projects h2,
+.contact h2{
+    font-size:32px;
+}
+
+.about-card{
+    padding:20px;
+}
+
+.about p{
+    font-size:16px;
+}
+
+.tech-grid{
+    gap:15px;
+}
+
+.tech-card{
+    width:120px;
+    height:120px;
+}
+
+.tech-card i{
+    font-size:45px;
 }
 
 .project-card{
     width:100%;
 }
-.logo-area{
-    gap:10px;
+
+.project-card img{
+    height:160px;
 }
 
-nav{
-    position:sticky;
+.timeline{
+    padding-left:20px;
+}
+
+.stats{
+    padding:50px 20px;
+}
+
+.stat-box{
+    width:100%;
+}
+
+.cursor-glow{
+    display:none;
 }
 
 }
-
 
 
